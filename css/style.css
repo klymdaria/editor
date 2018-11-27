@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.ba-text{
+	padding: 20px;
+	margin: 30px auto 0;
+	width: 500px;
+	border: 2px solid rgb(167, 54, 54);
+	box-shadow: 10px 10px 10px rgb(167, 54, 54);
+}
+
+.ba-text h1,
+.ba-text h2,
+.ba-text h3,
+.ba-text h4,
+.ba-text h5,
+.ba-text h6{
+	color: rgb(167, 54, 54);
+}
+
+.ba-editor:focus{
+	display: block;
+	margin: 30px auto;
+	padding: 20px;
+	border: 5px solid rgb(167, 54, 54, 0.6);
+	box-shadow: 15px 15px 10px rgb(167, 54, 54, 0.6);
+	color: rgb(26, 21, 21);
+	
+}
+
+.ba-info{
+	display: block;
+	margin: 30px auto ;
+	width: 500px;
+	padding: 20px;
+	background-color: rgb(167, 54, 54, 0.6);
+	border-radius: 20px;
+}
+
+.ba-info__title{
+	text-align: center;
+	color: rgb(85, 29, 29);
+}
+
+.ba-info-list__step{
+	color: rgb(85, 29, 29);
+	font-weight: bold;
+}
+
+.ba-info-list{
+	list-style: none;
+}
